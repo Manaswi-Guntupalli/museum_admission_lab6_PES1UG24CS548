@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Lab 6 stage_04_branch</title>
+<style>body{margin:28px;background:#111827;color:#f3f4f6}h1{font:24px Arial}p{font:16px Arial}pre{font:14px/1.5 Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere}</style>
+<h1>Museum Admission: stage 4, branch coverage</h1><p>Verbatim captured terminal output from stage_04_branch.txt</p><pre>$ python -m coverage run --data-file=.coverage.stage_04_branch --source=museum_admission --branch -m pytest test_museum_admission.py -q
+
+.............                                                            [100%]
+13 passed in 0.03s
+
+$ python -m coverage report --data-file=.coverage.stage_04_branch -m --fail-under=90
+
+Name                  Stmts   Miss Branch BrPart  Cover   Missing
+-----------------------------------------------------------------
+museum_admission.py      36      2     28      2    94%   26, 42
+-----------------------------------------------------------------
+TOTAL                    36      2     28      2    94%
+</pre></html>

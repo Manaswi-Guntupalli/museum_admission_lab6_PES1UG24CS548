@@ -12,8 +12,9 @@ commit dates are actual dates. The application code is unchanged.
 | 1 | 26/36 (72.22%) | 19/28 (67.86%) | 70.31% |
 | 2 | 30/36 (83.33%) | 23/28 (82.14%) | 82.81% |
 | 3 | 32/36 (88.89%) | 24/28 (85.71%) | 87.50% |
+| 4 | 34/36 (94.44%) | 26/28 (92.86%) | 93.75% |
 
-Current stage: **3**, measured combined coverage **87.50%**.
+Current stage: **4**, measured combined coverage **93.75%**.
 The requested approximate milestones were 70%, 82%, 89%, 95%, and 100%.
 Percentages are determined by real executions, with no exclusions or altered
 application code. A statement contributes 1/36 to line coverage; a statement

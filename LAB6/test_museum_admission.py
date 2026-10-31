@@ -51,3 +51,7 @@ def test_group_discount_15_false():
 
 def test_gallery_entry_100_100_false():
     assert gallery_entry(100, 100, False) == 'wait'
+
+
+def test_gallery_entry_0_100_false():
+    assert gallery_entry(0, 100, False) == 'enter'
