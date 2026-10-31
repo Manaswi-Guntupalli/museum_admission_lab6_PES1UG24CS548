@@ -1,0 +1,12 @@
+$ python -m coverage run --data-file=.coverage.stage_05_code --source=museum_admission -m pytest CodeCoverageTest_54_museum_admission.py -q
+
+................                                                         [100%]
+16 passed in 0.11s
+
+$ python -m coverage report --data-file=.coverage.stage_05_code -m --fail-under=100
+
+Name                  Stmts   Miss  Cover   Missing
+---------------------------------------------------
+museum_admission.py      36      0   100%
+---------------------------------------------------
+TOTAL                    36      0   100%

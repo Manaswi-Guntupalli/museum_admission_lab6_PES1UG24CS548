@@ -55,3 +55,12 @@ def test_gallery_entry_100_100_false():
 
 def test_gallery_entry_0_100_false():
     assert gallery_entry(0, 100, False) == 'enter'
+
+
+def test_gallery_entry_90_100_false():
+    assert gallery_entry(90, 100, False) == 'queue'
+
+
+def test_group_discount_negative_1_false():
+    with pytest.raises(ValueError, match='^invalid group size$'):
+        group_discount(-1, False)
