@@ -29,11 +29,11 @@ are measured results; the application was not changed to increase them.
 | Stage | Line coverage | Branch-only coverage | Combined coverage | Commit |
 |---|---:|---:|---:|---|
 | Original two tests | 47.22% | 35.71% | 42.19% | Starting reports in `LAB6/results/initial_*` |
-| 1 | 72.22% | 67.86% | 70.31% | [4f15f82](https://github.com/Manaswi-Guntupalli/museum-admission-lab6-coverage-progression/commit/4f15f82) |
-| 2 | 83.33% | 82.14% | 82.81% | [6569cfc](https://github.com/Manaswi-Guntupalli/museum-admission-lab6-coverage-progression/commit/6569cfc) |
-| 3 | 88.89% | 85.71% | 87.50% | [5c7ecb1](https://github.com/Manaswi-Guntupalli/museum-admission-lab6-coverage-progression/commit/5c7ecb1) |
-| 4 | 94.44% | 92.86% | 93.75% | [56438f2](https://github.com/Manaswi-Guntupalli/museum-admission-lab6-coverage-progression/commit/56438f2) |
-| 5 | 100% | 100% | 100% | [49bc6cd](https://github.com/Manaswi-Guntupalli/museum-admission-lab6-coverage-progression/commit/49bc6cd) |
+| 1 | 72.22% | 67.86% | 70.31% | [4f15f82](https://github.com/Manaswi-Guntupalli/museum_admission_lsb6_PES1UG24CS548/commit/4f15f82) |
+| 2 | 83.33% | 82.14% | 82.81% | [6569cfc](https://github.com/Manaswi-Guntupalli/museum_admission_lsb6_PES1UG24CS548/commit/6569cfc) |
+| 3 | 88.89% | 85.71% | 87.50% | [5c7ecb1](https://github.com/Manaswi-Guntupalli/museum_admission_lsb6_PES1UG24CS548/commit/5c7ecb1) |
+| 4 | 94.44% | 92.86% | 93.75% | [56438f2](https://github.com/Manaswi-Guntupalli/museum_admission_lsb6_PES1UG24CS548/commit/56438f2) |
+| 5 | 100% | 100% | 100% | [49bc6cd](https://github.com/Manaswi-Guntupalli/museum_admission_lsb6_PES1UG24CS548/commit/49bc6cd) |
 
 In branch mode, coverage.py's `Cover` column combines statements and branch
 destinations. It is different from the branch-only percentage. The reports
@@ -41,7 +41,7 @@ explain the calculation using the saved counts.
 
 The history includes separate commits for the code coverage tests and the
 branch coverage tests, followed by the reports and actual terminal screenshots.
-The full history is [available here](https://github.com/Manaswi-Guntupalli/museum-admission-lab6-coverage-progression/commits/main).
+The full history is [available here](https://github.com/Manaswi-Guntupalli/museum_admission_lsb6_PES1UG24CS548/commits/main).
 
 ## Run the lab
 
