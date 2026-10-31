@@ -1,0 +1,32 @@
+"""Additive coverage milestone tests for the unchanged Museum Admission module."""
+import pytest
+from museum_admission import ticket_price, group_discount, gallery_entry
+
+
+def test_adult_weekday():
+    assert ticket_price("adult", 30, "tuesday", False) == 300
+
+
+def test_small_group():
+    assert group_discount(4, False) == 0
+
+
+def test_ticket_price_student_20_saturday_true():
+    assert ticket_price('student', 20, 'saturday', True) == 250
+
+
+def test_ticket_price_adult_30_monday_true():
+    assert ticket_price('adult', 30, 'monday', True) == 250
+
+
+def test_ticket_price_child_0_tuesday_false():
+    assert ticket_price('child', 0, 'tuesday', False) == 0
+
+
+def test_ticket_price_unknown_30_tuesday_false():
+    with pytest.raises(ValueError, match='^unknown category$'):
+        ticket_price('unknown', 30, 'tuesday', False)
+
+
+def test_group_discount_1_true():
+    assert group_discount(1, True) == 25
