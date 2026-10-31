@@ -1,0 +1,10 @@
+$ python -m coverage run --data-file=.coverage_final_branch --source=museum_admission --branch -m pytest -p no:cacheprovider BranchCoverageTest_54_museum_admission.py -q
+................................................................         [100%]
+64 passed in 0.09s
+
+$ python -m coverage report --data-file=.coverage_final_branch -m --fail-under=100
+Name                  Stmts   Miss Branch BrPart  Cover   Missing
+-----------------------------------------------------------------
+museum_admission.py      36      0     28      0   100%
+-----------------------------------------------------------------
+TOTAL                    36      0     28      0   100%
