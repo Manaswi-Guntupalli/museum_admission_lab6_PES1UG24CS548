@@ -1,0 +1,16 @@
+$ python -m coverage run --branch --data-file=.coverage.stage_02 --source=museum_admission -m pytest test_museum_admission.py -q
+
+...........                                                              [100%]
+11 passed in 0.10s
+
+$ python -m coverage report --data-file=.coverage.stage_02 -m
+
+Name                  Stmts   Miss Branch BrPart  Cover   Missing
+-----------------------------------------------------------------
+museum_admission.py      36      6     28      1    83%   26, 39-43
+-----------------------------------------------------------------
+TOTAL                    36      6     28      1    83%
+
+$ python -m coverage json --data-file=.coverage.stage_02 -o results/stage_02.json
+
+Wrote JSON report to results/stage_02.json

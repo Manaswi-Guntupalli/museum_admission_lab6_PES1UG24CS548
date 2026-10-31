@@ -30,3 +30,20 @@ def test_ticket_price_unknown_30_tuesday_false():
 
 def test_group_discount_1_true():
     assert group_discount(1, True) == 25
+
+
+def test_ticket_price_adult_negative_1_tuesday_false():
+    with pytest.raises(ValueError, match='^invalid age$'):
+        ticket_price('adult', -1, 'tuesday', False)
+
+
+def test_group_discount_20_true():
+    assert group_discount(20, True) == 40
+
+
+def test_group_discount_8_false():
+    assert group_discount(8, False) == 10
+
+
+def test_group_discount_15_false():
+    assert group_discount(15, False) == 20
